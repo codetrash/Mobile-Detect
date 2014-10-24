@@ -125,7 +125,7 @@ $scriptVersion = $detect->getScriptVersion();
             $.ajax({
                 url: 'http://demo.mobiledetect.net/?page=addItem',
                 type: 'POST',
-                dataType: 'jsonp',
+                dataType: 'json',
                 data: {
                         //uaStringFromJS: escape(navigator.userAgent),
                         deviceWidth:    $(window).width(),
